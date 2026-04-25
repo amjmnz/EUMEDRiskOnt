@@ -22,6 +22,6 @@ You can explore the classes, properties, and instances directly on our GitHub Pa
 * **OOPS! & FOOPS!:** Ontology evaluation and FAIR principles validation.
 
 ## Repository Structure
-* `/ontology.ttl` (or `.owl`): The main ontology source file.
-* `/docs/`: Contains the WIDOCO-generated HTML documentation.
+* `/PEC2_ontology.ttl`: The main ontology source file.
+* `/myDocumentation/`: Contains the WIDOCO-generated HTML documentation.
 * `/images/`: Screenshots of the WebVOWL visualization and reasoning inferences.
