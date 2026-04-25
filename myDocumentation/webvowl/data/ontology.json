@@ -1,0 +1,721 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.owl-ontologies.com/ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.owl-ontologies.com/ns"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.owl-ontologies.com/ns#ActiveDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "undefined" : "Active Device"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#DEV-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "Device Model."
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001",
+        "undefined" : "HeartMate 3 LVAD"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Device has moving parts or live batteries."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ClassIIa",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIa",
+      "undefined" : "Class IIa"
+    },
+    "comment" : {
+      "undefined" : "Mid-Low Risk"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ClassIIb",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIIb",
+      "undefined" : "Class IIb"
+    },
+    "comment" : {
+      "undefined" : "Mid-High Risk"
+    },
+    "id" : "7",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ImplantableDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "undefined" : "Implantable Device"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#DEV-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "Device Model."
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001",
+        "undefined" : "HeartMate 3 LVAD"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Device is inserted into the patient's body."
+    },
+    "id" : "10",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#Risk",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "undefined" : "Risk"
+    },
+    "subClasses" : [ "17", "18", "19" ],
+    "comment" : {
+      "undefined" : "Entity is a risk described in riesgos.csv."
+    },
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#NearMissincident",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NearMissincident",
+      "undefined" : "Near Miss incident"
+    },
+    "comment" : {
+      "undefined" : "Incident caused a scare with no serious injury."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#CriticalRisk",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CriticalRisk",
+      "undefined" : "Critical Risk"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#RSK-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "Device failure - electrical leading to shutdown."
+      },
+      "labels" : {
+        "IRI-based" : "RSK-001",
+        "undefined" : "RSK-001"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Major malfunction or shutdown of the device."
+    },
+    "id" : "19",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#CorrectiveAction",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "undefined" : "Corrective Action"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#FSCA-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "Safety alert issued for protocol update."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-001",
+        "undefined" : "FSCA-001"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Actions taken to mitigate risks or incidents."
+    },
+    "id" : "1",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#Manufacturer",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "undefined" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#MAN-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "DBPedia entry."
+      },
+      "labels" : {
+        "IRI-based" : "MAN-001",
+        "undefined" : "Medtronic plc"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Company that manufactures the medical device."
+    },
+    "id" : "35",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#SeriousRisk",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousRisk",
+      "undefined" : "Serious Risk"
+    },
+    "comment" : {
+      "undefined" : "Severe malfunction of the device."
+    },
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#EUDAMEDEntity",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EUDAMEDEntity",
+      "undefined" : "EUDAMED Entity"
+    },
+    "subClasses" : [ "35", "2", "4", "1", "15", "6" ],
+    "comment" : {
+      "undefined" : "All daughter classes will be subinstances of EUDAMED entities."
+    },
+    "id" : "16"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "36",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#InVitroDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDevice",
+      "undefined" : "In Vitro Device"
+    },
+    "comment" : {
+      "undefined" : "Device is meant for laboratory use."
+    },
+    "id" : "34",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ClassI",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassI",
+      "undefined" : "Class I"
+    },
+    "comment" : {
+      "undefined" : "Low risk"
+    },
+    "id" : "12",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#SeriousIncident",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "undefined" : "Serious Incident"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.owl-ontologies.com/ns#INC-001",
+      "baseIri" : "http://www.owl-ontologies.com/ns",
+      "comment" : {
+        "undefined" : "Embolic stroke incident"
+      },
+      "labels" : {
+        "IRI-based" : "INC-001",
+        "undefined" : "INC-001"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Incident caused severe injury or death."
+    },
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "38",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "9",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#MedicalDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MedicalDevice",
+      "undefined" : "Medical Device"
+    },
+    "subClasses" : [ "3", "10", "34", "32" ],
+    "comment" : {
+      "undefined" : "Entity is a device described in dispositivos.csv."
+    },
+    "id" : "4",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ReusableDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReusableDevice",
+      "undefined" : "Reusable Device"
+    },
+    "comment" : {
+      "undefined" : "Device can be used more than once."
+    },
+    "id" : "32",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#Incident",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "undefined" : "Incident"
+    },
+    "subClasses" : [ "20", "23" ],
+    "comment" : {
+      "undefined" : "Entity is an incident described in incidentes.csv."
+    },
+    "id" : "2",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ModerateRisk",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ModerateRisk",
+      "undefined" : "Moderate Risk"
+    },
+    "comment" : {
+      "undefined" : "Minor malfunction of the device."
+    },
+    "id" : "18",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#ClassIII",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClassIII",
+      "undefined" : "Class III"
+    },
+    "comment" : {
+      "undefined" : "High Risk"
+    },
+    "id" : "14",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#RiskClass",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "undefined" : "Risk Class"
+    },
+    "subClasses" : [ "5", "7", "14", "12" ],
+    "comment" : {
+      "undefined" : "Regulatory classification of the device."
+    },
+    "id" : "6",
+    "superClasses" : [ "16" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.owl-ontologies.com/ns#addressesIncident",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "addressesIncident",
+      "undefined" : "addresses incident"
+    },
+    "domain" : "1",
+    "comment" : {
+      "undefined" : "The corrective action involves the mentioned incident."
+    },
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#hasUDI",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasUDI",
+      "undefined" : "has UDI"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Unique Device Identification string for the medical device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "8"
+  }, {
+    "range" : "6",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "6",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "13"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "15",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "4",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#involvesDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "involvesDevice",
+      "undefined" : "involves device"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Incident is caused by the device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "4",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#eventDate",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "eventDate",
+      "undefined" : "event date"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "The date and time when the incident occurred."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "37"
+  }, {
+    "range" : "16",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "16",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "16",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "16",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "16",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#targetsDevice",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "targetsDevice",
+      "undefined" : "targets device"
+    },
+    "domain" : "36",
+    "comment" : {
+      "undefined" : "The corrective action involves the following device"
+    },
+    "attributes" : [ "object" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#manifestsRisk",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "manifestsRisk",
+      "undefined" : "manifests risk"
+    },
+    "domain" : "2",
+    "comment" : {
+      "undefined" : "Incident is an instance of the risk."
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#hasManufacturer",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasManufacturer",
+      "undefined" : "has manufacturer"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Device is made by the manufacturer."
+    },
+    "attributes" : [ "object" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.owl-ontologies.com/ns#hasRiskClass",
+    "baseIri" : "http://www.owl-ontologies.com/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "undefined" : "has risk class"
+    },
+    "domain" : "4",
+    "comment" : {
+      "undefined" : "Regulatory classification of the device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  } ]
+}
