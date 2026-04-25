@@ -13,7 +13,9 @@ This repository contains the project developed for **Exercise 2 of the second co
 Following the LOT methodology and FAIR principles, the complete documentation for this ontology has been automatically generated using WIDOCO. 
 
 You can explore the classes, properties, and instances directly on our GitHub Pages:
-**[View EUMEDRiskOnt Documentation](https://tu-usuario.github.io/nombre-de-tu-repo/)** ## 🛠️ Tools & Technologies Used
+**[View EUMEDRiskOnt Documentation](https://tu-usuario.github.io/nombre-de-tu-repo/)** 
+
+## Tools & Technologies Used
 * **Protégé:** Ontology editing and creation (OWL/XML, Turtle).
 * **Pellet:** Semantic reasoning and consistency checking.
 * **SWRL:** Rule-based logic implementation.
